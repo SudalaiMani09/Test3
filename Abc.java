@@ -1,12 +1,13 @@
 package org.base;
 
-public class Example {
+public class Abc {
 
 	private void employeeName(String name) {
 		System.out.println("Employee name is : " + name);
 	}
+
 	public static void main(String[] args) {
-		Example a = new Example();
+		Abc a = new Abc();
 		a.employeeName("SudalaiMani");
 	}
 }
